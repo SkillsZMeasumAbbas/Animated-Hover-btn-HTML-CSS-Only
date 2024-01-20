@@ -1,0 +1,84 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/*-------btn3 start---------*/
+.btn3con{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(1, 15, 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn3{
+    height: 55px;
+    color: white;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 0 35px rgb(2, 97, 2);
+    border: 2px solid white;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    cursor: pointer;
+    animation: btn3 1s;
+    animation-iteration-count: 1;
+    transition: 0.5s;
+}
+.btn3:active{
+    background:radial-gradient(rgb(2, 97, 2), rgb(3, 134, 3), rgb(8, 131, 8));
+}
+.btn3div101{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow:  0 0 10px rgb(2, 97, 2);
+    animation: degg 1s 1s linear 3;
+}
+.btn3div202{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 255, 255);
+    rotate: 360deg;
+    border-top-right-radius: 0px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(2, 97, 2);
+    animation: degg 1s 1s linear 3;
+}
+@keyframes degg {
+    0%{ transform: rotate(0deg);}
+    100%{ transform: rotate(360deg);}
+}
+
+
+
+
+
+
+
+
+
+
+/*-------btn3 end---------*/
+
+
+
+
+
+
+
+
+
+
